@@ -392,6 +392,12 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+The following programs are required for this workshop:  
+- A spreasheet program (MS Excel, LibraOffice, etc)  
+- OpenRefine  
+- R  
+- RStudio  
+
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
@@ -399,3 +405,5 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+
+*Note: You do **NOT** need a SQLite Browser for this workshop*
