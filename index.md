@@ -4,11 +4,11 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Carnegie Mellon University"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
-latitude: "40.442806"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-79.943016"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: ""        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: ""       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Nov 11-13, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "1:00 pm - 5:00 pm EST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-11-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -179,18 +179,10 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  accessible to everybody.   
+  Materials will be provided in advance of the workshop electronically.  
+  If we can help making learning easier for
+  you please   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
 {% else %}
